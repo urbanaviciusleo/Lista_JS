@@ -16,7 +16,7 @@ function CriarBotaoSalvar(){
     botao_salvar.classList.add("btn", "btn-success")
     botao_salvar.type = "button"
     botao_salvar.innerHTML = "Salvar"
-    botao_salvar.addEventListener("click", SalvarItem() )
+    botao_salvar.addEventListener("click", SalvarItem )
     return botao_salvar
 }
 
